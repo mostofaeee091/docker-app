@@ -1,6 +1,6 @@
 [
     {
-        "name": "awscicd",
-        "imageUri": "632644471688.dkr.ecr.ap-south-1.amazonaws.com/awscicd"
+        "name": "webapp",
+        "imageUri": "632644471688.dkr.ecr.ap-south-1.amazonaws.com/webapp:latest"
     }
 ]
