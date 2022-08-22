@@ -1,6 +1,6 @@
 [
     {
-        "name": "cicd-task",
-        "imageUri": "632644471688.dkr.ecr.ap-south-1.amazonaws.com/webapp:latest"
+        "name": "webapp-task",
+        "imageUri": "632644471688.dkr.ecr.ap-south-1.amazonaws.com/webapp-ecr:latest"
     }
 ]
