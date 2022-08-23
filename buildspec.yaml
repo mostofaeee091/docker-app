@@ -8,10 +8,10 @@ phases:
       - REPOSITORY_URI=$AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME
   build:
     commands:
-      - echo Build started on `date`
-      - echo Building the Docker image...          
-      - docker build -t webapp-docker:latest .
-      - docker tag webapp-docker:latest 632644471688.dkr.ecr.ap-south-1.amazonaws.com/webapp-docker-build:latest    
+     - echo Build started on `date`
+     - echo Building the Docker image...          
+     - docker build -t $IMAGE_REPO_NAME:$IMAGE_TAG .
+     - docker tag $IMAGE_REPO_NAME:$IMAGE_TAG $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$IMAGE_TAG     
   post_build:
     commands:
       - echo Build completed on `date`
