@@ -1,6 +1,6 @@
 [
     {
-        "name": "webapp-task",
-        "imageUri": "632644471688.dkr.ecr.ap-south-1.amazonaws.com/webapp-ecr:latest"
+        "name": "webapp-docker-task",
+        "imageUri": "632644471688.dkr.ecr.ap-south-1.amazonaws.com/testdevops:latest"
     }
 ]
